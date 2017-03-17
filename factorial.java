@@ -4,7 +4,7 @@ public class factorial {
 	
 	public static long fact(long num) {
 		long fac = 1;
-if (num<=0) {
+if (num<=1) {
 			return 1;
 		} else {
 			return num*fact(num-1);
